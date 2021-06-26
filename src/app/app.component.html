@@ -1,0 +1,3 @@
+<button (click)="clickButtonAction()" [disabled]="disabled">Действие</button>
+<app-on-changes [value]="value" (logger)="logIt($event)"></app-on-changes>
+<p *ngFor="let stack of stacks">{{stack}}</p>
